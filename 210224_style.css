@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Inter";
+    src: url(./fonts/Inter-VariableFont.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter";
+}
+
+h1, h2{
+    margin-bottom: 22px;
+}
+
+h1{
+    font-size: 29px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 22px;
+}
+
+section{
+    border: 5px solid;
+    padding: 45px 25px;
+    margin: 20px 10px;
+    display: block;
+}
+
+.section-hobby{
+    border-color: #FA8072;
+    background: #FFA07A;
+}
+
+.section-work{
+    border-color: #00F;
+    background: #87CEFA;
+}
+
+.section-friends{
+    border-color: #FFD700;
+    background: #FAFAD2;
+}
+
+section img{
+    width: 300px;
+    margin-bottom: 4px;
+}
+
+section a{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 21px;
+}
+
+p{
+    font-size: 18px;
+}
+
+ul{
+    padding: 11px 0 15px 0;
+    border: 1px solid #000;
+    display: flex;
+    gap: 4px;
+    list-style-type: none;
+    justify-content: center;
+}
+
+ul img{
+    width: 15px;
+}
+
+ul a{
+    display: block;
+    line-height: 0;
+}
